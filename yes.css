@@ -1,0 +1,19 @@
+
+
+
+.kilig img{
+				width: 300px;
+}
+
+.kilig{
+	position: relative;
+	top: 0;
+	display:grid ;
+	flex-basis: content;
+	justify-content: unsafe ;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap:2em;
+	margin-left: auto;
+	margin-right: auto;
+}
